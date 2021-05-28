@@ -1,0 +1,224 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family:'Poppins', sans-serif;
+    color : #222;
+}
+
+body
+{
+margin-left: 0;
+margin-right: 0;
+background-size:100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+text-align: center;
+}
+
+
+.navbar {
+    padding: .4rem;
+}
+
+.navbar-nav li {
+    padding-right: 10px;
+    padding: 0px;
+    margin: 18px;
+}
+
+.navbar-nav ul {
+    text-align: inherit;
+}
+
+.navlink {
+    font-size: 10px !important ;
+}
+
+img {
+    max-width: 100%; /*pour avoir toute la taille de l'image */
+}
+
+.product__btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /*pour centrer le bouton */
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    padding: .5em;
+}
+
+.product__img {
+    max-height: 70vh;
+}
+
+.product__img img {
+    max-height: 100vh;
+    width: 100%;
+}
+
+
+.product{
+    position: relative;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+@media screen and (min-width: 50rem) {
+    .articles {
+        grid-template-columns: repeat(2, minmax(2ch, 1fr));
+    }
+}
+
+.fiche {
+    display:  grid;
+    text-decoration:  none;
+    color:  #333;
+    background:  rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.titre{
+    text-align: center;
+    color: rgb(61, 111, 248);
+    font-size: 1.5rem;
+    text-overflow : ellipsis;
+    }
+
+.text{
+    margin : 30px;
+    text-align: center;
+    text-overflow : ellipsis;
+    }
+
+    .product__btnn {
+        position: absolute;
+        right: 40%;
+        top: 50%;
+        transform: translate(-50%, -50%); /*pour centrer le bouton */
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 50px;
+        display: inline-block;
+        text-decoration: none;
+        padding: .5em;
+        text-align: left;
+    }
+
+    .product__bouton {
+        position: absolute;
+        right: 60%;
+        top: 80%;
+        transform: translate(-50%, -50%); /*pour centrer le bouton */
+        background: rgb(33, 153, 233);
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 2em;
+        text-decoration: none;
+        padding: .3em;
+        border-radius: 50px;
+        width: 320px;
+    }
+
+    .product__btnn2 {
+        position: absolute;
+        left: 75%;
+        top: 50%;
+        transform: translate(-50%, -50%); /*pour centrer le bouton */
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+        font-size: 50px;
+        text-align: right;
+    }
+
+    .product__bouton2 {
+        position: absolute;
+        left: 77%;
+        top: 80%;
+        transform: translate(-50%, -50%); /*pour centrer le bouton */
+        background: rgb(33, 153, 233);
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 2em;
+        text-decoration: none;
+        padding: .3em;
+        border-radius: 50px;
+        width: 320px;
+    }
+
+    .articles2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    @media screen and (min-width: 50rem) {
+        .articles2 {
+            grid-template-columns: repeat(2, minmax(2ch, 1fr));
+        }
+    }
+    .product__bout {
+        transform: translate(295%, 0%); /*pour centrer le bouton */
+        background: rgb(33, 153, 233);
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 50px;
+        width: 220px;
+    }
+
+    label, input, textarea {
+        border: 0;
+    }
+     
+    input, textarea { 
+        outline: 0;
+        position: relative;
+    }
+
+    .product__bouton3 {
+
+        background: rgb(33, 153, 233);
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 2em;
+        text-decoration: none;
+        padding: .3em;
+        border-radius: 50px;
+        width: 820px;
+        margin: 50px;
+    }
+
+    .container-fluid{
+        margin: auto;
+        text-align: right;
+    }
+
+    .product__bouton4 {
+        transform: translate(355%, -100%);
+        background: rgb(33, 153, 233);
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 2em;
+        text-decoration: none;
+        padding: .3em;
+        border-radius: 50px;
+        width: 320px;
+        margin: 50px;
+    }
+
+    .articles3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    @media screen and (min-width: 50rem) {
+        .articles3 {
+            grid-template-columns: repeat(3, minmax(2ch, 1fr));
+        }
+    }
